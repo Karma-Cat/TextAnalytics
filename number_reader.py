@@ -15,4 +15,4 @@ with open(r'Path#1', 'r') as lines:
 
 df = pd.DataFrame(spis_num,columns=['Numbers'])
 
-df.to_csv(r'C:\Users\My workstation\Desktop\Работа\Git_Repo\docs\1channel_Avtoobzvonshik\numbers.csv', index=False)
+df.to_csv(r'Path#2', index=False)

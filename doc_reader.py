@@ -38,8 +38,8 @@ def paths_maker():
 	        json_path.append(path + "\\" + i)
 	    elif i.split(".", 2)[1] == "html":
 	        html_path.append(path + "\\" + i)
-			else:
-	    	logging.error("Extension error. This file is not json or html {}".format(i))
+      else:
+          logging.error("Extension error. This file is not json or html {}".format(i))
 	
     return json_path, html_path
 	
